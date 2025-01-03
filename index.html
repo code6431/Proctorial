@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- header section starts -->
+    <header class="header">
+        
+        <div class="header-12">
+            
+            
+            <img src="images/dry.png" alt="Dry"><span>roctorial</span>
+        
+            
+          </div>
+          
+          
+        
+
+        <nav class="navbar">
+            <a href="#home" class="hover-underline">Home</a>
+            <a href="#about" class="hover-underline">About</a>
+            <a href="#teacher" class="hover-underline">Teachers</a>
+            <a href="#students" class="hover-underline">Students  <i class="fas fa-caret-down" onclick="toggleDropdown"></i> 
+           <div class="dropdown__menu">
+              
+                 <a href="">Academics</a> 
+             <a href="">Attendance</a> 
+             <a href="">Personal Information</a> 
+              
+            
+
+           </div> 
+
+
+            </a>
+            <a href="#review" class="hover-underline">Review</a>
+            <a href="#contact" class="hover-underline">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <button id="login-btn"><i class="fas fa-user"></i>Login</button>
+            <button id="regis-btn"><i class="fas fa-user"></i>Register</button>
+            <div id="menu-btn" class="fas fa-bars"></div>
+        </div>
+
+        <!-- login form -->
+        <form action="" class="login-form">
+            <h3>Login Form</h3>
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember">
+                <label for="remember-me">Remember me (Student)</label>
+                <input type="checkbox" name="" id="remember">
+                <label for="remember-me">Remember me (Tutor)</label>
+                
+            </div>
+            <a href="#" class="btn">
+                <span class="text text-1">Login Now</span>
+                <span class="text text-2" aria-hidden="true">Login Now</span>
+            </a>
+        </form>
+
+        <!-- Register form -->
+        <form action="" class="register-form">
+            <h3>Register Form</h3>
+            <input type="text" placeholder="Enter your username" class="box">
+            <input type="email" placeholder="Enter your email" class="box">
+            <input type="password" placeholder="Enter your password" class="box">
+            <input type="password" placeholder="Confirm your password" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember">
+                <label for="remember-me">Remember me (Student)</label>
+                <input type="checkbox" name="" id="remember">
+                <label for="remember-me">Remember me (Tutor)</label>
+                
+            </div>
+            <a href="#" class="btn">
+                <span class="text text-1">Register Now</span>
+                <span class="text text-2" aria-hidden="true">Register Now</span>
+            </a>
+        </form>
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts-->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>Learn Today Lead Tomorrow</h3>
+            <p>The Difference Between The Dreamer and An innovator is that a dreamer just dreams and innovator creates his own path to realize ideas which others think is impossible.</p>
+            <a href="#" class="btn">
+                <span class="text text-1">learn more</span>
+                <span class="text text-2" aria-hidden="true">learn more</span>
+            </a>    
+        </div>
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- about section starts -->
+
+     <section class="about" id="about">
+
+        <h1 class="heading">about us</h1>
+
+        <div class="container">
+
+            <figure class="about-image">
+                <img src="images/image7.jpg" alt="" height="500">
+                <img src="images/image6.jpg" alt="" class="about-img">
+            </figure>
+
+            <div class="about-content">
+                <h3>Nurturing IT Visionaries</h3>
+                <p>The Department of Computer Science and Information Technology (CSIT) at Gandhi Institute of Technological Advancement (GITA) is a distinguished center of academic excellence. It boasts a team of highly qualified and approachable faculty members who foster a conducive learning environment. CSIT's uniqueness lies in its dynamic approach, seamlessly integrating theoretical concepts with real-world applications through collaborations with industry leaders.</p>
+                    <p>The department encourages a culture of innovation and research, providing students with state-of-the-art facilities to explore cutting-edge technologies. CSIT's commitment to nurturing well-rounded professionals is evident in its emphasis on practical exposure and industry-aligned curriculum. With its exceptional faculty, hands-on learning opportunities, and a focus on innovation, the CSIT department at GITA produces highly skilled and sought-after graduates, propelling them towards success in the ever-evolving technological landscape.</p>
+                <a href="#" class="btn">
+                    <span class="text text-1">read more</span>
+                    <span class="text text-2" aria-hidden="true">read more</span>
+                </a>        
+            </div>
+
+        </div>
+
+    </section>
+<!--Teacher section-->
+
+    <section class="teacher" id="teacher">
+
+        <h1 class="heading">our expert teachers</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/cheerful-indian-businessman-smiling-closeup-portrait-jobs-career-campaign_53876-129416.jpg?t=st=1716361257~exp=1716364857~hmac=e7361b4a81dab5d97d338efa0ea82e1aa4c4ef10b6aff243737f3725586bc196&w=1060" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Parimal Ku. Giri</h3>
+                    <span>hod</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/romantic-boyfriend-smiling-look-with-affection_176420-16056.jpg?t=st=1716361417~exp=1716365017~hmac=2d7b1009280ab48bf77d73dbabdf7d0fb99089c0f6a14f32a0df92ebf6158e2b&w=1060" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Debasish Das</h3>
+                    <span>educator</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/portrait-happy-smiley-man_23-2149022624.jpg?t=st=1716361566~exp=1716365166~hmac=6312c6bb90b4339e0f5e6f7c6398fccf949a1a8f59564cbbef2f37802ea10ddb&w=1060" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Chandrakant Mallik</h3>
+                    <span>educator</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/portrait-handsome-serious-man_23-2149022626.jpg?t=st=1716361408~exp=1716365008~hmac=780a9453b4a8a8c7ec7aa3eca2621187a5a687dbf839f2be1e839a2bf5059c70&w=1060" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Subharanjan Das</h3>
+                    <span>educator</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/attractive-woman-with-charming-smile_176532-10368.jpg?t=st=1716361477~exp=1716365077~hmac=f118a41487991c09710b0edf2387bd3d22963b0a2903ed869a7b88bf325fda10&w=1060" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Lopamudra Das</h3>
+                    <span>educator</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="https://img.freepik.com/free-photo/young-beautiful-girl-wearing-olive-green-t-shirt-isolated-pink-wall_141793-102843.jpg?t=st=1716361456~exp=1716365056~hmac=2667979f482e02f5c0f62699371dfc16aff89c8b13bde85cde4a01562e6d215c&w=1060" alt="">
+                    <div class="share">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                    </div>
+                </div>
+                <div class="content">
+                    <h3>Rashmi Rani Patra</h3>
+                    <span>educator</span>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <!-- about section ends -->
+
+    <!-- subjects section starts -->
+
+    <!-- <section class="subjects">
+
+        <h1 class="heading">our popular subjects</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="images/subject-1.png" alt="">
+                <h3>development</h3>
+                <p>fun & challenging</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-2.png" alt="">
+                <h3>mathematics</h3>
+                <p>fun & challenging</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-3.png" alt="">
+                <h3>graphic designing</h3>
+                <p>fun & challenging</p>
+            </div>
+
+            <div class="box">
+                <img src="images/subject-4.png" alt="">
+                <h3>engineering</h3>
+                <p>fun & challenging</p>
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- subject section ends -->
+
+    <!-- courses section starts -->
+
+    <!-- <section class="courses" id="courses">
+
+        <h1 class="heading">our famous courses</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-1.jpg" alt="">
+                    <h3>basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>frontend development</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(785)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h 25m 9s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-2.jpg" alt="">
+                    <h3>basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>frontend development</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(785)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h 25m 9s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-3.jpg" alt="">
+                    <h3>basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>frontend development</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(785)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h 25m 9s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-4.jpg" alt="">
+                    <h3>basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>frontend development</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(785)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h 25m 9s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-5.jpg" alt="">
+                    <h3>basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>frontend development</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(785)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h 25m 9s</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/course-6.jpg" alt="">
+                    <h3>basic</h3>
+                </div>
+                <div class="content">
+                    <h4>$49.99</h4>
+                    <p>updated 25/09/2021</p>
+                    <h3>frontend development</h3>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(785)</span>
+                    </div>
+                    <div class="icons">
+                        <span><i class="far fa-bookmark"></i> 15 lessons</span>
+                        <span><i class="far fa-clock"></i> 8h 25m 9s</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- courses section ends -->
+
+    <!-- teacher section starts -->
+
+    
+
+    <!-- teacher section ends -->
+
+    <!-- review section starts -->
+
+    <section class="review" id="review">
+
+        <h1 class="heading"> students reviewS</h1>
+
+        <div class="swiper review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <p>Chandrakant Sir is highly regarded by students for his clear explanations, approachable demeanor, and dedication to student success. 
+
+
+
+
+
+                    </p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/mera_photo.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Rahul Gupta</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Chandrakant Sir is highly regarded by students for his clear explanations, approachable demeanor, and dedication to student success</p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/saroj.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Saroj ku.</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Chandrakant Sir is highly regarded by students for his clear explanations, approachable demeanor, and dedication to student success</p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/rajibul.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>rajibul Islam</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Chandrakant Sir is highly regarded by students for his clear explanations, approachable demeanor, and dedication to student success</p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/pratima.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>pratima Bayari</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Chandrakant Sir is highly regarded by students for his clear explanations, approachable demeanor, and dedication to student success</p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/mera_photo.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>Rahul Gupta</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <p>Chandrakant Sir is highly regarded by students for his clear explanations, approachable demeanor, and dedication to student success</p>
+                    <div class="wrapper">
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                        <div class="separator"></div>
+                    </div>
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/rajibul.jpeg" alt="">
+                        <div class="user-info">
+                            <h3>rajibul Islam</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            
+
+        </div>
+        
+
+    </section>
+
+    <!-- review section ends -->
+
+    <!-- blog section starts -->
+
+    <!-- <section class="blog" id="blog">
+
+        <h1 class="heading">our blogs</h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/blog-1.jpg" alt="">
+                    <h3>09 dec 2022</h3>
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by admin</a>
+                    </div>
+                    <h3>we have best courses for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo minus.</p>
+                    <a href="#" class="btn">
+                        <span class="text text-1">read more</span>
+                        <span class="text text-2" aria-hidden="true">read more</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/blog-2.jpg" alt="">
+                    <h3>09 dec 2022</h3>
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by admin</a>
+                    </div>
+                    <h3>we have best courses for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo minus.</p>
+                    <a href="#" class="btn">
+                        <span class="text text-1">read more</span>
+                        <span class="text text-2" aria-hidden="true">read more</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image shine">
+                    <img src="images/blog-3.jpg" alt="">
+                    <h3>09 dec 2022</h3>
+                </div>
+                <div class="content">
+                    <div class="icons">
+                        <a href="#"><i class="fas fa-user"></i>by admin</a>
+                    </div>
+                    <h3>we have best courses for you</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam explicabo minus.</p>
+                    <a href="#" class="btn">
+                        <span class="text text-1">read more</span>
+                        <span class="text text-2" aria-hidden="true">read more</span>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </section> -->
+
+    <!-- blog section ends -->
+
+    <!-- contact section starts -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">contact us</h1>
+
+        <div class="row">
+            <div class="image">
+                <img src="images/contact.png" alt="">
+            </div>
+            <form action="">
+                <h3>send us a message</h3>
+                <input type="text" placeholder="name" class="box">
+                <input type="email" placeholder="email" class="box">
+                <input type="number" placeholder="phone number" class="box">
+                <textarea placeholder="message" class="box" cols="30" rows="10"></textarea>
+                <a href="#" class="btn">
+                    <span class="text text-1">send message</span>
+                    <span class="text text-2" aria-hidden="true">send message</span>
+                </a>
+            </form>
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section stars -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>find us here</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum beatae.</p>
+                <div class="share">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                    <a href="#" class="fab fa-linkedin"></a>
+                </div>
+            </div>
+
+            <div class="box">
+                <h3>contact us</h3>
+                <p>7903344316</p>
+                <a href="#" class="link">rahulgupta109037@gmail.com</a>
+            </div>
+
+            <div class="box">
+                <h3>localization</h3>
+                <p>230 points of the pines <br>
+                colorado springs <br>
+                India</p>
+            </div>
+
+        </div>
+        <div class="credit">created by <span> RRSP </span>| all rights are reserved!</div>
+    </section>
+
+    <!-- footer section ends -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- custom js -->
+    <script src="js/script.js"></script>
+</body>
+</html>
